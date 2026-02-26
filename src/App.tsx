@@ -164,7 +164,7 @@ const Dashboard = ({ student, onLogout }: { student: Student, onLogout: () => vo
                 </div>
               )}
               <div className="absolute top-6 right-6 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20 text-white text-xs font-bold uppercase tracking-widest">
-                Жлба видеосы
+                Жоба видеосы
               </div>
             </div>
           </div>
@@ -192,7 +192,7 @@ const Dashboard = ({ student, onLogout }: { student: Student, onLogout: () => vo
                           return (
                             <div className="bg-white p-3 border border-zinc-200 shadow-lg rounded-lg">
                               <p className="text-sm font-medium text-zinc-900">{payload[0].payload.name}</p>
-                              <p className="text-xs text-emerald-600 font-bold">Score: {payload[0].payload.actual}</p>
+                              <p className="text-xs text-emerald-600 font-bold">Ұпай: {payload[0].payload.actual}</p>
                             </div>
                           );
                         }
@@ -249,7 +249,7 @@ const Dashboard = ({ student, onLogout }: { student: Student, onLogout: () => vo
                 <Code2 className="w-32 h-32" />
               </div>
               <h3 className="text-xl font-bold mb-6 flex items-center gap-2">
-                Иұғалімнің пікірі
+                Мұғалімнің пікірі
               </h3>
               <p className="text-emerald-50 text-lg leading-relaxed italic mb-8">
                 "{student.feedback}"
